@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularMaterialModule } from './angular-material/angular-material.module';
 import { NonAuthenticatedComponent } from './non-authenticated/non-authenticated.component';
 import { HomeComponent } from './home/home.component';
+import { UsersModule } from './users/users.module';
 
 @NgModule({
   declarations: [AppComponent, NonAuthenticatedComponent, HomeComponent],
@@ -15,6 +16,7 @@ import { HomeComponent } from './home/home.component';
     AppRoutingModule,
     BrowserModule,
     BrowserAnimationsModule,
+    UsersModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
