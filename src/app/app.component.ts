@@ -6,10 +6,10 @@ import { AuthService } from './auth/auth.service';
   templateUrl: './app.component.html',
   styles: [
     `
-      .main {
+      <<<<<<< HEAD .main {
         padding: 1rem;
       }
-      .example-spacer {
+      =======>>>>>>>416aea1cc54afce0d40dc3f09da00511eefa885e .example-spacer {
         flex: 1 1 auto;
       }
     `,
