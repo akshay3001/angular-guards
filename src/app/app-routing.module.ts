@@ -15,6 +15,7 @@ const routes: Routes = [
     component: UsersComponent,
     children: [
       { path: '', pathMatch: 'full', redirectTo: 'welcome' },
+      { path: 'non-auth', component: NonAuthenticatedComponent },
       { path: 'welcome', component: WelcomeComponent },
       {
         path: '',
