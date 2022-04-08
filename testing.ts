@@ -4,7 +4,7 @@ let b =   2;
 
 
 
-console.log('');
+console.log('log');
 
 
 
